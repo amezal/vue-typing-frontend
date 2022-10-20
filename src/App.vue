@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import Navbar from './components/Navbar.vue';
 
 </script>
 
 <template>
-  <h1 class="text-4xl">jelous</h1>
+  <Navbar/>
+  <RouterView/>
 </template>
 
