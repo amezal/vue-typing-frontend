@@ -5,7 +5,16 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'blink': 'blinker 1.2s step-end infinite;'
+      },
+      keyframes: {
+        blinker: {
+          '50%': {opacity: 0}
+        }
+      }
+    },
   },
   plugins: [],
 }
