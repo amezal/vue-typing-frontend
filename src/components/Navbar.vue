@@ -16,7 +16,7 @@
         <RouterLink to="/sign_in" class="router-link pt-2">
           Log In
         </RouterLink>
-        <RouterLink to="/sign_up" class="hover:bg-green-500 hover:text-neutral-800 font-semibold 
+        <RouterLink to="/sign_up" class="hover:bg-green-500 hover:text-neutral-800
         transition-all duration-150 border-2 border-green-500 rounded-lg px-4 py-1">
           Sign Up
         </RouterLink>
